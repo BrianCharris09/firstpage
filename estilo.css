@@ -1,0 +1,122 @@
+body{
+    background-image: url("IMG/img.jpg");
+    color: wheat;
+    user-select: none;
+}
+nav{
+    width: 98%;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+}
+li{
+    float: left;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: thistle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.seccion1,.seccion2{
+    margin: 5px 5px;
+    background-color: rgb(1, 9, 26);
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 40px;
+}
+.seccion1 h1{
+    color: thistle;
+    border-bottom: 5px tomato solid;
+    width: 250px;
+}
+.seccion1 p{
+    color: whitesmoke;
+}
+hr{
+    width: 80%;
+}
+
+.seccion2{
+    text-align: center;
+    background-color: rgb(59, 0, 42);
+}
+.seccion2 h2{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.seccion3{
+    text-align: center;
+    border: 3px tomato solid;
+    width: 60%;
+    margin: auto;
+    height: 550px;
+    border-radius: 10px;
+}
+.seccion3 form{
+    margin-top: 45px;
+}
+.seccion3 label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:thistle;
+    font-size: 70px;
+}
+.seccion3 .input{
+    width: 50%;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+}
+.seccion3 .menssage{
+    height: 150px;
+}
+
+.seccion3 .boton{
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 9px;
+    border: 1px thistle solid;
+    color: thistle;
+    background-color: transparent;
+}
+
+.seccion3 .boton:hover{
+    background-color: thistle;
+    color: black;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+footer p{
+    font-family: monospace;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*Estilos globales*/
+.titulos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+.parrafos{
+    font-family: cursive;
+    font-size: 20px;
+}
